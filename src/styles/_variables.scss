@@ -1,0 +1,54 @@
+:root {
+  --color-primary: #4C70F0;
+  --color-primary-lighter: #DEEBFF;
+  --color-secondary: #434343;
+  --color-error: #EB5757;
+  --color-success: #27AE60;
+  --color-white: #FFFFFF;
+  --color-black: #3A3A3A;
+  --color-3A: #3A3A3A;
+  --color-CED: #EDEDED;
+  --color-C82: #828282;
+  --color-CAE: #AEBDCB;
+  --color-C84: #848A9C;
+  --color-C99: #99A8DA;
+  --color-CF5: #F5F5F5;
+  --color-CA4: #A4A4A4;
+  --color-C12: #129BA4;
+  --color-C90: #909090;
+  --color-CEA: #EAF2FF;
+  --color-C2C: #2C2C2C;
+  --color-C91: #9198a0;
+  --color-C92: #929292;
+  --color-CF2: #F2F2F2;
+  --color-CD1: #D1D1D1;
+  --color-CEB: #EBF2FF;
+  --color-C55: #558BE3;
+  --color-CEE: #DEEBFF;
+  --color-C27: #279D3A;
+  --color-CD3: #D3FFDA;
+  --color-C9: #C9C9C9;
+  --color-CD9: #D96425;
+  --color-C128: #1288A4;
+  --color-F6: #F6F6F6;
+  --color-C62: #626262;
+  --color-AAA: #AAAAAA;
+
+  --base-box-shadow: 1px 1px 8px rgba(0, 56, 117, 0.25);
+  --base-box-shadow-sm: 1px 1px 4px 0 rgba(0, 56, 117, 0.25);
+  --base-box-shadow-md: 1px 1px 10px rgba(0, 56, 117, 0.15);
+  --base-font-size: 14px;
+  --base-radius: 8px;
+
+  --layout-padding: 16px;
+  --header-height: 60px;
+
+  @screen xs {
+    --layout-padding: 20px;
+  }
+
+  @screen md {
+    --base-radius: 10px;
+    --header-height: 75px;
+  }
+}

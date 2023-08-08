@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+}
+
+@layer components {
+  .heading-1 {
+    @apply text-2xl font-semibold xl:text-[28px];
+  }
+
+  .heading-2 {
+    @apply text-xl font-semibold;
+  }
+
+  .heading-3 {
+    @apply text-lg font-medium;
+  }
+
+  .heading-4 {
+    @apply font-semibold text-lg md:text-2xl xl:text-[28px];
+  }
+
+  .card {
+    @apply bg-white text-black shadow-md rounded-[20px] p-5 lg:p-7;
+  }
+
+  .card-sm {
+    @apply bg-white text-black shadow-md rounded-base p-4;
+  }
+
+  .notice-box {
+    @apply py-2 px-4 bg-CEA rounded;
+  }
+
+  .box {
+    @apply shadow rounded-base bg-white text-black px-4 py-3;
+  }
+}
+
+@layer utilities {
+
+}
